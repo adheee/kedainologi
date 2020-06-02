@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'open-sans';
+    src: url('../webfonts/OpenSans-Regular.ttf');
+}
+
+body {
+    font-family: "open-sans" !important;
+}
+
+/* navbar */
+.navbar {
+    background-color: transparent !important;
+    position: fixed;
+    width: 100%;
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar .navbar-brand img {
+    width: 200px;
+}
+
+.navbar ul li {
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    padding-left: 40px;
+}
+
+.navbar ul li a {
+    color: #FFFFFF !important;
+}
+
+/* end navbar */
+
+/* jumbotron */
+.jumbotron {
+    background-color: transparent !important;
+    background-image: url("../asset/jumbotron.svg");
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position-x: -120px;
+    margin-top: -50px;
+    height: 500px;
+}
+
+.jumbotron h1 {
+    margin-top: 200px;
+    letter-spacing: 1.74px;
+    color: #FFFFFF;
+    font-weight: bolder;
+}
+
+.jumbotron p {
+    letter-spacing: -1.22px;
+    color: #FFFFFF;
+    font-size: 40px;
+    font-weight: 100 !important;
+}
+
+.jumbotron small {
+    color: #697598;
+    font-size: 18px;
+}
+
+/* end jumbotron */
