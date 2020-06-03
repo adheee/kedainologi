@@ -76,8 +76,8 @@ body {
     border: none;
     padding-top: 10px;
     padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
     border-radius: 30px;
     letter-spacing: 0.4px;
     transition: .5s;
@@ -115,11 +115,11 @@ body {
     font-size: 15px;
 }
 
-.services .card-section {
+.services .main-services {
     margin-top: 80px;
 }
 
-.services .card-section .services-card {
+.services .main-services .services-card {
     width: 350px;
     height: 320px;
     padding-left: 20px;
@@ -129,22 +129,23 @@ body {
     border: none;
     cursor: pointer;
     transition: .5s;
+    box-shadow: 0px 10px 50px #31384E14;
 }
 
-.services .card-section .services-card:hover {
+.services .main-services .services-card:hover {
     background-color: rgb(125, 201, 241);
     transition: .5s;
     box-shadow: 0px 10px 30px rgba(49, 56, 78, 0.349);
 }
 
-.services .card-section .services-card:hover h6,
-.services .card-section .services-card:hover p,
-.services .card-section .services-card:hover .icon-setting {
+.services .main-services .services-card:hover h6,
+.services .main-services .services-card:hover p,
+.services .main-services .services-card:hover .icon-setting {
     color: #fff !important;
     transition: .5s;
 }
 
-.services .card-section .services-card:hover .icon-setting {
+.services .main-services .services-card:hover .icon-setting {
     font-size: 40px;
 }
 
@@ -168,3 +169,54 @@ body {
 }
 
 /* end services */
+
+/* featured */
+.featured {
+    padding-top: 140px;
+}
+
+.featured .title {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #31384E;
+}
+
+.featured .main-featured {
+    margin-top: 60px;
+}
+
+.featured .featured-card {
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+    box-shadow: 0px 10px 50px #31384E14;
+}
+
+.featured .featured-card:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+    box-shadow: 0px 10px 30px rgba(49, 56, 78, 0.349);
+}
+
+.featured .featured-card .card-img-top {
+    padding: 10px;
+}
+
+.featured .featured-card .card-body {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.featured .featured-card h5,
+.featured .featured-card p {
+    color: #31384E;
+    transition: .5s;
+}
+
+.featured .featured-card p {
+    color: rgba(49, 56, 78, 0.801);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+/* end featured */
