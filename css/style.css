@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'open-sans';
-    src: url('../webfonts/OpenSans-Regular.ttf');
+    src: url('../asset/OpenSans-Regular.ttf');
 }
 
 body {
@@ -67,7 +67,7 @@ body {
 }
 
 .button-jumbotron {
-    margin-top: 55px;
+    margin-top: 60px;
 }
 
 .button-jumbotron .mybtn {
@@ -91,7 +91,80 @@ body {
 
 .man-jumbotron {
     width: 600px;
-    margin-top: 100px;
+    margin-top: 120px;
 }
 
 /* end jumbotron */
+
+/* services */
+
+.services {
+    margin-top: 150px;
+    padding-top: 80px;
+}
+
+.services .our-services {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #31384E;
+}
+
+.services small {
+    color: #697598;
+    text-align: center;
+    font-size: 15px;
+}
+
+.services .card-section {
+    margin-top: 80px;
+}
+
+.services .card-section .services-card {
+    width: 350px;
+    height: 320px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 25px;
+    border-radius: 10px 20px 10px 60px;
+    border: none;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.services .card-section .services-card:hover {
+    background-color: rgb(125, 201, 241);
+    transition: .5s;
+    box-shadow: 0px 10px 30px rgba(49, 56, 78, 0.349);
+}
+
+.services .card-section .services-card:hover h6,
+.services .card-section .services-card:hover p,
+.services .card-section .services-card:hover .icon-setting {
+    color: #fff !important;
+    transition: .5s;
+}
+
+.services .card-section .services-card:hover .icon-setting {
+    font-size: 40px;
+}
+
+.services .services-card .icon-setting {
+    color: rgb(125, 201, 241) !important;
+    transition: .5s;
+}
+
+.services .services-card h6 {
+    margin-top: 40px;
+    text-transform: uppercase;
+    color: #31384E;
+    transition: .5s;
+}
+
+.services .services-card p {
+    color: rgba(49, 56, 78, 0.801);
+    font-size: 15px;
+    margin-top: 20px;
+    transition: .5s;
+}
+
+/* end services */
