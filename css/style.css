@@ -15,6 +15,7 @@ body {
     margin-top: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
+    z-index: 99999 !important;
 }
 
 .navbar .navbar-brand img {
@@ -63,6 +64,34 @@ body {
 .jumbotron small {
     color: #697598;
     font-size: 18px;
+}
+
+.button-jumbotron {
+    margin-top: 55px;
+}
+
+.button-jumbotron .mybtn {
+    background: linear-gradient(to right, #2655EE, #66B5E1);
+    color: #fff;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    border-radius: 30px;
+    letter-spacing: 0.4px;
+    transition: .5s;
+
+}
+
+.button-jumbotron .mybtn:hover {
+    box-shadow: 0px 2px 16px rgba(8, 54, 204, 0.397);
+    transition: .5s;
+}
+
+.man-jumbotron {
+    width: 600px;
+    margin-top: 100px;
 }
 
 /* end jumbotron */
