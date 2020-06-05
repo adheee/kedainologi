@@ -39,7 +39,7 @@ body {
 /* jumbotron */
 .jumbotron {
     background-color: transparent !important;
-    background-image: url("../asset/jumbotron.svg");
+    background-image: url("../asset/img/jumbotron/jumbotron.svg");
     background-size: cover !important;
     background-repeat: no-repeat !important;
     background-position-x: -120px;
@@ -66,11 +66,8 @@ body {
     font-size: 18px;
 }
 
-.button-jumbotron {
-    margin-top: 60px;
-}
-
-.button-jumbotron .mybtn {
+.jumbotron .mybtn {
+    margin-top: 80px;
     background: linear-gradient(to right, #2655EE, #66B5E1);
     color: #fff;
     border: none;
@@ -84,7 +81,7 @@ body {
 
 }
 
-.button-jumbotron .mybtn:hover {
+.jumbotron .mybtn:hover {
     box-shadow: 0px 2px 16px rgba(8, 54, 204, 0.397);
     transition: .5s;
 }
@@ -219,4 +216,50 @@ body {
     margin-top: 20px;
 }
 
+.featured .featured-btn {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 30px;
+    border: 1px solid #2354F3;
+    color: #2354F3;
+    transition: .5s;
+}
+
+.featured .featured-btn:hover {
+    color: #fff;
+    background-color: #2354F3;
+    border: 1px solid #2354F3;
+    transition: .5s;
+}
+
 /* end featured */
+
+/* testimoni */
+.testimoni {
+    padding-top: 140px;
+    margin-bottom: 100px;
+}
+
+.testimoni .title {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #31384E;
+}
+
+.testimoni .main-testimoni {
+    margin-top: 60px;
+}
+
+.testimoni .carousel {
+    background-color: aquamarine;
+}
+
+.testimoni .carousel .carousel-item img {
+    width: 170px;
+}
+
+/* end testimoni */
