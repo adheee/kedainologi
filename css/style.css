@@ -313,4 +313,73 @@ body {
     padding: 20px;
 }
 
+.testimoni .request label:not(.label-textarea) {
+    transform: translateY(-35px);
+    transition: .5s;
+    cursor: text;
+    color: rgb(108, 112, 122);
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.testimoni .request .label-textarea {
+    transform: translateY(-100px);
+    transition: .5s;
+    cursor: text;
+    color: rgb(108, 112, 122);
+    margin-left: 10px;
+    padding: 0 10px 0 10px;
+}
+
+.testimoni .request .form-group {
+    margin-bottom: 0px;
+}
+
+.testimoni .request .form-group textarea {
+    resize: none !important;
+}
+
+.testimoni .request .form-group .form-control:not(textarea) {
+    border: 1px solid rgb(224, 224, 224);
+    background: transparent;
+    padding-left: 15px !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    position: relative;
+    z-index: 1;
+    height: 45px;
+}
+
+.testimoni .request .form-group input[type=email]:valid+label,
+.testimoni .request .form-group input[type=email]:focus+label,
+.testimoni .request .form-group input[type=text]:valid+label,
+.testimoni .request .form-group input[type=text]:focus+label {
+    transform: translateY(-60px);
+    transition: .5s;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    color: #2354F3;
+}
+
+.testimoni .request .form-group textarea:valid+label,
+.testimoni .request .form-group textarea:focus+label {
+    transform: translateY(-125px);
+    transition: .5s;
+    font-size: 14px;
+    position: relative;
+    z-index: 2;
+    background-color: #fff;
+    color: #2354F3;
+}
+
+.testimoni .request .form-group input[type=email]:focus,
+.testimoni .request .form-group input[type=text]:focus,
+.testimoni .request .form-group textarea:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
 /* end testimoni */
