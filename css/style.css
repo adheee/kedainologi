@@ -337,6 +337,9 @@ body {
 
 .testimoni .request .form-group textarea {
     resize: none !important;
+    position: relative;
+    z-index: 1;
+    background: transparent;
 }
 
 .testimoni .request .form-group .form-control:not(textarea) {
@@ -379,6 +382,47 @@ body {
 .testimoni .request .form-group textarea:focus {
     outline: none !important;
     box-shadow: none !important;
+}
+
+.testimoni .request .btn-req {
+    background: linear-gradient(to right, #2655EE, #66B5E1);
+    color: #fff;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 30px;
+    letter-spacing: 0.4px;
+    transition: .5s;
+    font-size: 15px;
+
+}
+
+.testimoni .request .btn-req:hover {
+    box-shadow: 0px 2px 16px rgba(8, 54, 204, 0.397);
+    transition: .5s;
+}
+
+.testimoni .talk {
+    padding-top: 25px;
+    padding-left: 40px;
+}
+
+.testimoni .talk h1 {
+    color: #31384E;
+}
+
+.testimoni .talk p {
+    margin-top: 40px;
+    font-size: 15px;
+    color: rgb(87, 87, 87);
+}
+
+.testimoni .testi-asset {
+    position: absolute;
+    width: 700px;
+    transform: translateX(-360px);
 }
 
 
