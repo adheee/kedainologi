@@ -96,8 +96,9 @@ body {
 /* services */
 
 .services {
-    margin-top: 150px;
-    padding-top: 80px;
+    margin-top: 200px;
+    padding-top: 100px;
+    padding-bottom: 90px;
 }
 
 .services .our-services {
@@ -169,7 +170,7 @@ body {
 
 /* featured */
 .featured {
-    padding-top: 140px;
+    padding-top: 100px;
 }
 
 .featured .title {
@@ -187,6 +188,8 @@ body {
     cursor: pointer;
     transition: .5s;
     box-shadow: 0px 10px 50px #31384E14;
+    position: relative;
+    overflow: hidden;
 }
 
 .featured .featured-card:hover {
@@ -298,6 +301,16 @@ body {
 .testimoni .carousel .carousel-item p {
     margin-block-start: 0px !important;
     margin-block-end: 0px !important;
+}
+
+.testimoni .request {
+    margin-top: 150px;
+}
+
+.testimoni .request .card {
+    border: none;
+    box-shadow: 0px 6px 48px rgba(0, 0, 0, 0.068);
+    padding: 20px;
 }
 
 /* end testimoni */
