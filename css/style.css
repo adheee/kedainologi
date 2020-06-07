@@ -430,9 +430,8 @@ body {
 
 /* subscribe */
 .subscribe {
-    margin-top: 170px;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 90px;
+    padding-bottom: 150px;
 }
 
 .subscribe .subs-asset {
@@ -457,6 +456,12 @@ body {
     padding-left: 30px;
 }
 
+.subscribe form .form-control::placeholder {
+    font-style: italic;
+    color: rgb(148, 153, 167);
+    font-size: 15px;
+}
+
 .subscribe form .btn-subs {
     background: linear-gradient(to right, #2655EE, #66B5E1);
     color: #fff;
@@ -479,3 +484,40 @@ body {
 }
 
 /* end subscribe */
+
+/* about */
+.about {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.about img {
+    width: 170px;
+}
+
+.about .email {
+    margin-top: 20px;
+    line-height: 5px;
+}
+
+.about .email,
+.about .telp,
+.about .title p,
+.about .title p a {
+    color: rgb(103, 105, 110);
+    font-size: 14px;
+    transition: .5s;
+}
+
+.about .title p a:hover {
+    text-decoration: none;
+    color: #222;
+    transition: .5s;
+}
+
+.about .title h6 {
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+/* about */
