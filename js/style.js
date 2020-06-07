@@ -2,7 +2,7 @@
 $(window).scroll(function () {
     var scroll = $(window).scrollTop();
 
-    if (scroll >= 70) {
+    if (scroll >= 50) {
         $("nav").addClass("navbar-scroll");
     } else {
         $("nav").removeClass("navbar-scroll");
