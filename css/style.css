@@ -521,3 +521,15 @@ body {
 }
 
 /* about */
+
+/* footer */
+footer {
+    padding-bottom: 20px;
+}
+
+footer p {
+    color: rgb(141, 141, 143);
+    font-size: 14px;
+}
+
+/* end footer */
