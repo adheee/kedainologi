@@ -427,3 +427,55 @@ body {
 
 
 /* end testimoni */
+
+/* subscribe */
+.subscribe {
+    margin-top: 170px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.subscribe .subs-asset {
+    position: absolute;
+    margin-top: 50px;
+    transform: translateX(50px);
+}
+
+.subscribe .title {
+    font-weight: bolder;
+    font-size: 25px;
+    color: #31384E;
+}
+
+.subscribe .form-subs {
+    margin-top: 50px;
+}
+
+.subscribe form .form-control {
+    width: 350px !important;
+    border-radius: 99px;
+    padding-left: 30px;
+}
+
+.subscribe form .btn-subs {
+    background: linear-gradient(to right, #2655EE, #66B5E1);
+    color: #fff;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 99px;
+    letter-spacing: 0.4px;
+    transition: .5s;
+    font-size: 15px;
+    margin-left: 20px;
+
+}
+
+.subscribe form .btn-subs:hover {
+    box-shadow: 0px 2px 16px rgba(8, 54, 204, 0.397);
+    transition: .5s;
+}
+
+/* end subscribe */
