@@ -535,6 +535,23 @@ body {
     margin-bottom: 30px;
 }
 
+.about .social-media a {
+    padding: 5px 10px 5px 10px;
+    text-align: center !important;
+    margin-right: 10px;
+    border-color: rgb(103, 105, 110);
+    color: rgb(103, 105, 110);
+    transition: .5s;
+}
+
+.about .social-media a:hover {
+    text-decoration: none;
+    transition: .5s;
+    background-color: #66B5E1;
+    border-color: #66B5E1 !important;
+    color: #fff;
+}
+
 /* about */
 
 /* footer */
