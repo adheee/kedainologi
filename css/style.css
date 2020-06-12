@@ -55,7 +55,7 @@ body {
     transition: all .5s;
 }
 
-.navbar ul li a:after {
+.navbar ul li a:not([class*="active"]):after {
     position  : absolute;
     bottom    : 0;
     left      : 0;
@@ -68,11 +68,11 @@ body {
     height    : 1px;
 }
 
-.navbar ul li a:hover:after {
+.navbar ul li a:not([class*="active"]):hover:after {
     width: 80%;
 }
 
-.navbar ul li a:hover {
+.navbar ul li a:not([class*="active"]):hover {
     transform: scaleX(1) !important;
 }
 
@@ -148,21 +148,21 @@ body {
 /* services */
 
 .services {
-    margin-top: 200px;
-    padding-top: 100px;
+    margin-top    : 200px;
+    padding-top   : 100px;
     padding-bottom: 90px;
 }
 
 .services .our-services {
     font-weight: bolder;
-    font-size: 25px;
-    color: #31384E;
+    font-size  : 25px;
+    color      : #31384E;
 }
 
 .services small {
-    color: #697598;
+    color     : #697598;
     text-align: center;
-    font-size: 15px;
+    font-size : 15px;
 }
 
 .services .main-services {
@@ -170,28 +170,28 @@ body {
 }
 
 .services .main-services .services-card {
-    width: 350px;
-    height: 320px;
-    padding-left: 20px;
+    width        : 350px;
+    height       : 320px;
+    padding-left : 20px;
     padding-right: 20px;
-    padding-top: 25px;
+    padding-top  : 25px;
     border-radius: 10px 20px 10px 60px;
-    border: none;
-    cursor: pointer;
-    transition: .5s;
-    box-shadow: 0px 10px 50px #31384E14;
+    border       : none;
+    cursor       : pointer;
+    transition   : .5s;
+    box-shadow   : 0px 10px 50px #31384E14;
 }
 
 .services .main-services .services-card:hover {
     background-color: rgb(125, 201, 241);
-    transition: .5s;
-    box-shadow: 0px 10px 30px rgba(49, 56, 78, 0.349);
+    transition      : .5s;
+    box-shadow      : 0px 10px 30px rgba(49, 56, 78, 0.349);
 }
 
 .services .main-services .services-card:hover h6,
 .services .main-services .services-card:hover p,
 .services .main-services .services-card:hover .icon-setting {
-    color: #fff !important;
+    color     : #fff !important;
     transition: .5s;
 }
 
@@ -200,20 +200,20 @@ body {
 }
 
 .services .services-card .icon-setting {
-    color: rgb(125, 201, 241) !important;
+    color     : rgb(125, 201, 241) !important;
     transition: .5s;
 }
 
 .services .services-card h6 {
-    margin-top: 40px;
+    margin-top    : 40px;
     text-transform: uppercase;
-    color: #31384E;
-    transition: .5s;
+    color         : #31384E;
+    transition    : .5s;
 }
 
 .services .services-card p {
-    color: rgba(49, 56, 78, 0.801);
-    font-size: 15px;
+    color     : rgba(49, 56, 78, 0.801);
+    font-size : 15px;
     margin-top: 20px;
     transition: .5s;
 }
@@ -227,8 +227,8 @@ body {
 
 .featured .title {
     font-weight: bolder;
-    font-size: 25px;
-    color: #31384E;
+    font-size  : 25px;
+    color      : #31384E;
 }
 
 .featured .main-featured {
@@ -236,16 +236,16 @@ body {
 }
 
 .featured .featured-card {
-    border: none;
-    cursor: pointer;
+    border    : none;
+    cursor    : pointer;
     transition: .5s;
     box-shadow: 0px 10px 50px #31384E14;
-    position: relative;
-    overflow: hidden;
+    position  : relative;
+    overflow  : hidden;
 }
 
 .featured .featured-card:hover {
-    transform: translateY(-10px);
+    transform : translateY(-10px);
     transition: .5s;
     box-shadow: 0px 10px 30px rgba(49, 56, 78, 0.349);
 }
@@ -255,63 +255,63 @@ body {
 }
 
 .featured .featured-card .card-body {
-    padding-left: 30px;
+    padding-left : 30px;
     padding-right: 30px;
 }
 
 .featured .featured-card h5,
 .featured .featured-card p {
-    color: #31384E;
+    color     : #31384E;
     transition: .5s;
 }
 
 .featured .featured-card p {
-    color: rgba(49, 56, 78, 0.801);
-    font-size: 15px;
+    color     : rgba(49, 56, 78, 0.801);
+    font-size : 15px;
     margin-top: 20px;
 }
 
 .featured .featured-btn {
-    margin-top: 60px;
-    margin-bottom: 20px;
-    padding-top: 10px;
+    margin-top    : 60px;
+    margin-bottom : 20px;
+    padding-top   : 10px;
     padding-bottom: 10px;
-    padding-left: 50px;
-    padding-right: 50px;
-    border-radius: 30px;
-    border: 1px solid #2354F3;
-    color: #2354F3;
-    transition: .5s;
+    padding-left  : 50px;
+    padding-right : 50px;
+    border-radius : 30px;
+    border        : 1px solid #2354F3;
+    color         : #2354F3;
+    transition    : .5s;
 }
 
 .featured .featured-btn:hover {
-    color: #fff;
+    color           : #fff;
     background-color: #2354F3;
-    border: 1px solid #2354F3;
-    transition: .5s;
+    border          : 1px solid #2354F3;
+    transition      : .5s;
 }
 
 /* end featured */
 
 /* testimoni */
 .testimoni {
-    padding-top: 140px;
+    padding-top  : 140px;
     margin-bottom: 100px;
 }
 
 .testimoni .quote {
-    font-size: 50px;
-    color: rgb(226, 226, 226);
-    position: absolute;
-    transform: translateY(-210px);
+    font-size  : 50px;
+    color      : rgb(226, 226, 226);
+    position   : absolute;
+    transform  : translateY(-210px);
     margin-left: 40px;
 }
 
 
 .testimoni .title {
     font-weight: bolder;
-    font-size: 25px;
-    color: #31384E;
+    font-size  : 25px;
+    color      : #31384E;
 }
 
 .testimoni .main-testimoni {
@@ -324,9 +324,9 @@ body {
 }
 
 .testimoni .carousel {
-    box-shadow: 0px 15px 43px rgba(0, 0, 0, 0.089);
+    box-shadow   : 0px 15px 43px rgba(0, 0, 0, 0.089);
     border-radius: 20px 0px 10px 0px;
-    padding: 35px;
+    padding      : 35px;
 }
 
 .testimoni .carousel .carousel-item img {
@@ -335,14 +335,14 @@ body {
 
 .testimoni .carousel .carousel-item .opinion {
     font-size: 15px;
-    color: rgb(85, 90, 104);
+    color    : rgb(85, 90, 104);
 }
 
 .testimoni .carousel .carousel-item .name {
-    font-size: 15px;
+    font-size  : 15px;
     font-weight: bolder;
-    color: #31384E;
-    margin-top: 20px !important;
+    color      : #31384E;
+    margin-top : 20px !important;
     line-height: 10px !important;
 }
 
@@ -352,7 +352,7 @@ body {
 
 .testimoni .carousel .carousel-item p {
     margin-block-start: 0px !important;
-    margin-block-end: 0px !important;
+    margin-block-end  : 0px !important;
 }
 
 .testimoni .request {
@@ -360,27 +360,27 @@ body {
 }
 
 .testimoni .request .card {
-    border: none;
+    border    : none;
     box-shadow: 0px 6px 48px rgba(0, 0, 0, 0.068);
-    padding: 20px;
+    padding   : 20px;
 }
 
 .testimoni .request label:not(.label-textarea) {
-    transform: translateY(-35px);
-    transition: .5s;
-    cursor: text;
-    color: rgb(108, 112, 122);
+    transform  : translateY(-35px);
+    transition : .5s;
+    cursor     : text;
+    color      : rgb(108, 112, 122);
     margin-left: 10px;
-    padding: 0 10px 0 10px;
+    padding    : 0 10px 0 10px;
 }
 
 .testimoni .request .label-textarea {
-    transform: translateY(-100px);
-    transition: .5s;
-    cursor: text;
-    color: rgb(108, 112, 122);
+    transform  : translateY(-100px);
+    transition : .5s;
+    cursor     : text;
+    color      : rgb(108, 112, 122);
     margin-left: 10px;
-    padding: 0 10px 0 10px;
+    padding    : 0 10px 0 10px;
 }
 
 .testimoni .request .form-group {
@@ -388,66 +388,65 @@ body {
 }
 
 .testimoni .request .form-group textarea {
-    resize: none !important;
-    position: relative;
-    z-index: 1;
+    resize    : none !important;
+    position  : relative;
+    z-index   : 1;
     background: transparent;
 }
 
 .testimoni .request .form-group .form-control:not(textarea) {
-    background: transparent;
-    padding-left: 15px !important;
-    padding-top: 15px;
+    background    : transparent;
+    padding-left  : 15px !important;
+    padding-top   : 15px;
     padding-bottom: 15px;
-    position: relative;
-    z-index: 1;
-    height: 45px;
+    position      : relative;
+    z-index       : 1;
+    height        : 45px;
 }
 
 .testimoni .request .form-group input[type=email]:valid+label,
 .testimoni .request .form-group input[type=email]:focus+label,
 .testimoni .request .form-group input[type=text]:valid+label,
 .testimoni .request .form-group input[type=text]:focus+label {
-    transform: translateY(-60px);
-    transition: .5s;
-    font-size: 14px;
-    position: relative;
-    z-index: 2;
+    transform       : translateY(-60px);
+    transition      : .5s;
+    font-size       : 14px;
+    position        : relative;
+    z-index         : 2;
     background-color: #fff;
-    color: #2354F3;
+    color           : #2354F3;
 }
 
 .testimoni .request .form-group textarea:valid+label,
 .testimoni .request .form-group textarea:focus+label {
-    transform: translateY(-125px);
-    transition: .5s;
-    font-size: 14px;
-    position: relative;
-    z-index: 2;
+    transform       : translateY(-125px);
+    transition      : .5s;
+    font-size       : 14px;
+    position        : relative;
+    z-index         : 2;
     background-color: #fff;
-    color: #2354F3;
+    color           : #2354F3;
 }
 
 .testimoni .request .form-group input[type=email]:focus,
 .testimoni .request .form-group input[type=text]:focus,
 .testimoni .request .form-group textarea:focus {
-    outline: none !important;
+    outline   : none !important;
     box-shadow: none !important;
 }
 
 .testimoni .request .btn-req {
-    background: linear-gradient(to right, #2655EE, #66B5E1);
-    color: #fff;
-    border: none;
-    padding-top: 9px;
+    background    : linear-gradient(to right, #2655EE, #66B5E1);
+    color         : #fff;
+    border        : none;
+    padding-top   : 9px;
     padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 30px;
+    padding-left  : 40px;
+    padding-right : 40px;
+    border-radius : 30px;
     letter-spacing: 0.4px;
-    transition: .5s;
-    font-size: 15px;
-
+    transition    : .5s;
+    font-size     : 15px;
 }
 
 .testimoni .request .btn-req:hover {
@@ -456,7 +455,7 @@ body {
 }
 
 .testimoni .talk {
-    padding-top: 25px;
+    padding-top : 25px;
     padding-left: 40px;
 }
 
@@ -466,13 +465,13 @@ body {
 
 .testimoni .talk p {
     margin-top: 40px;
-    font-size: 15px;
-    color: rgb(87, 87, 87);
+    font-size : 15px;
+    color     : rgb(87, 87, 87);
 }
 
 .testimoni .testi-asset {
-    position: absolute;
-    width: 700px;
+    position : absolute;
+    width    : 700px;
     transform: translateX(-360px);
 }
 
@@ -481,20 +480,20 @@ body {
 
 /* subscribe */
 .subscribe {
-    padding-top: 90px;
+    padding-top   : 90px;
     padding-bottom: 150px;
 }
 
 .subscribe .subs-asset {
-    position: absolute;
+    position  : absolute;
     margin-top: 50px;
-    transform: translateX(50px);
+    transform : translateX(50px);
 }
 
 .subscribe .title {
     font-weight: bolder;
-    font-size: 25px;
-    color: #31384E;
+    font-size  : 25px;
+    color      : #31384E;
 }
 
 .subscribe .form-subs {
@@ -502,30 +501,30 @@ body {
 }
 
 .subscribe form .form-control {
-    width: 350px !important;
+    width        : 350px !important;
     border-radius: 99px;
-    padding-left: 30px;
+    padding-left : 30px;
 }
 
 .subscribe form .form-control::placeholder {
     font-style: italic;
-    color: rgb(148, 153, 167);
-    font-size: 15px;
+    color     : rgb(148, 153, 167);
+    font-size : 15px;
 }
 
 .subscribe form .btn-subs {
-    background: linear-gradient(to right, #2655EE, #66B5E1);
-    color: #fff;
-    border: none;
-    padding-top: 9px;
+    background    : linear-gradient(to right, #2655EE, #66B5E1);
+    color         : #fff;
+    border        : none;
+    padding-top   : 9px;
     padding-bottom: 10px;
-    padding-left: 40px;
-    padding-right: 40px;
-    border-radius: 99px;
+    padding-left  : 40px;
+    padding-right : 40px;
+    border-radius : 99px;
     letter-spacing: 0.4px;
-    transition: .5s;
-    font-size: 15px;
-    margin-left: 20px;
+    transition    : .5s;
+    font-size     : 15px;
+    margin-left   : 20px;
 
 }
 
@@ -538,7 +537,7 @@ body {
 
 /* about */
 .about {
-    padding-top: 100px;
+    padding-top   : 100px;
     padding-bottom: 150px;
 }
 
@@ -547,7 +546,7 @@ body {
 }
 
 .about .email {
-    margin-top: 20px;
+    margin-top : 20px;
     line-height: 5px;
 }
 
@@ -555,37 +554,37 @@ body {
 .about .telp,
 .about .title p,
 .about .title p a {
-    color: rgb(103, 105, 110);
-    font-size: 14px;
+    color     : rgb(103, 105, 110);
+    font-size : 14px;
     transition: .5s;
 }
 
 .about .title p a:hover {
     text-decoration: none;
-    color: #222;
-    transition: .5s;
+    color          : #222;
+    transition     : .5s;
 }
 
 .about .title h6 {
-    font-weight: bolder;
+    font-weight  : bolder;
     margin-bottom: 30px;
 }
 
 .about .social-media a {
-    padding: 5px 10px 5px 10px;
-    text-align: center !important;
+    padding     : 5px 10px 5px 10px;
+    text-align  : center !important;
     margin-right: 10px;
     border-color: rgb(103, 105, 110);
-    color: rgb(103, 105, 110);
-    transition: .5s;
+    color       : rgb(103, 105, 110);
+    transition  : .5s;
 }
 
 .about .social-media a:hover {
-    text-decoration: none;
-    transition: .5s;
+    text-decoration : none;
+    transition      : .5s;
     background-color: #66B5E1;
-    border-color: #66B5E1 !important;
-    color: #fff;
+    border-color    : #66B5E1 !important;
+    color           : #fff;
 }
 
 /* about */
@@ -596,7 +595,7 @@ footer {
 }
 
 footer p {
-    color: rgb(141, 141, 143);
+    color    : rgb(141, 141, 143);
     font-size: 14px;
 }
 
@@ -616,8 +615,101 @@ footer p {
         background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='rgb(248, 248, 248)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
     }
 
+    .navbar ul {
+        background-color: rgb(125, 201, 241) !important;
+        padding-left    : 0;
+        padding-right   : 0;
+        padding-top     : 30px;
+        padding-bottom  : 30px;
+    }
+
+    .navbar ul li {
+        width: 100% !important;
+    }
+
+    .navbar ul li a {
+        line-height: 70px;
+    }
+
+    .active:not([class*="carousel-item"]) {
+        background-color: transparent;
+        border-radius   : 0px;
+        font-weight     : 900 !important;
+    }
+
+    .jumbotron {
+        text-align      : center;
+        margin-top      : -50px;
+        position        : relative!important;
+        overflow        : hidden !important;
+        height          : 640px;
+    }
+
+    .jumbotron h1 {
+        margin-top    : 200px;
+        font-size     : 40px;
+    }
+
+    .jumbotron p {
+        font-size     : 30px;
+    }
+
+    .jumbotron small {
+        font-size: 15px;
+    }
+
     .man-jumbotron {
         display: none;
+    }
+
+    .services {
+        margin-top    : 10px;
+        padding-top   : 20px;
+        padding-bottom: 90px;
+    }
+
+    .services .main-services .services-card {
+        width        : 300px;
+        margin-bottom: 20px;
+    }
+
+    .featured .featured-card {
+        margin-bottom: 20px;
+    }
+
+    .featured .featured-card:hover {
+        transform : translateY(0px);
+        transition: .5s;
+        box-shadow: 0px 10px 30px rgba(49, 56, 78, 0.349);
+    }
+
+    .testimoni {
+        padding-top  : 140px;
+        margin-bottom: 100px;
+    }
+
+    .testimoni .quote {
+        display: none;
+    }
+
+
+    .testimoni .main-testimoni {
+        margin-top: 20px;
+    }
+
+    .testimoni .carousel .fa-chevron-left,
+    .testimoni .carousel .fa-chevron-right {
+        color: rgb(158, 158, 158);
+    }
+
+    .testimoni .carousel {
+        background-color: #fff;
+        text-align: center;
+    }
+
+    .testimoni .carousel .carousel-item img {
+        left: 0;
+        right: 0;
     }
 }
 
