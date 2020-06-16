@@ -691,7 +691,9 @@ footer p {
         font-size: 15px;
     }
 
-    .man-jumbotron {
+    .man-jumbotron,
+    .helloworld,
+    .typed {
         display: none;
     }
 
@@ -785,6 +787,11 @@ footer p {
         transform : scale(1);
         opacity   : 1;
         margin-top: -220px;
+    }
+
+    80% {
+        transform: scale(0);
+        opacity  : 0;
     }
 
     100% {

@@ -1,3 +1,12 @@
+// typed js
+new Typed('#typed',{
+  strings : ['Hello World !!', 'We Are KeDainologi'],
+  typeSpeed : 100,
+  delaySpeed : 100,
+  loop : true
+});
+// end typedjs
+
 $(document).ready(function () {
 
 	$('.page-scroll').on("click", function (e) {
