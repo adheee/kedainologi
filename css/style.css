@@ -76,6 +76,32 @@ body {
     transform: scaleX(1) !important;
 }
 
+.burger {
+    display: block;
+    padding: 20px;
+    cursor : pointer;
+}
+
+.burger div {
+    width           : 30px;
+    height          : 2px;
+    background-color: #fff;
+    margin          : 7px;
+    transition      : all .3s ease;
+}
+
+.toggle .burger-one {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .burger-two {
+    opacity: 0;
+}
+
+.toggle .burger-three {
+    transform: rotate(45deg) translate(-5px, -6px);    
+}
+
 .navbar-scroll ul li a {
     position: relative;
     z-index : 1;
@@ -146,7 +172,7 @@ body {
 .helloworld {
     display                  : flex;
     background-color         : #fff;
-    padding                  : 10px 50px;
+    padding                  : 10px 30px;
     font-weight              : bold;
     position                 : absolute;
     z-index                  : 1;
@@ -158,11 +184,7 @@ body {
     animation-duration       : 10s;
     animation-delay          : 1s;
     animation-iteration-count: infinite;
-    width                    : 270px;
-}
-
-.typed {
-    animation: helloworld;
+    width                    : 220px;
 }
 /* end jumbotron */
 
@@ -589,13 +611,14 @@ body {
 .about .title p a {
     color     : rgb(103, 105, 110);
     font-size : 14px;
-    transition: .5s;
+    transition: 1s;
 }
 
 .about .title p a:hover {
     text-decoration: none;
-    color          : #222;
-    transition     : .5s;
+    color          : #2655EE;
+    transition     : 1s;
+    border-bottom  : 1px solid #2655EE;
 }
 
 .about .title h6 {

@@ -1,6 +1,6 @@
 // typed js
 new Typed('#typed',{
-  strings : ['Hello World !!', 'We Are KeDainologi'],
+  strings : ['Hello World....', 'We Are KeDainologi'],
   typeSpeed : 100,
   delaySpeed : 100,
   loop : true
@@ -37,3 +37,16 @@ $(window).scroll(function () {
 	}
 });
 // end navbar scroll
+
+// burger-animation
+const navSlide = () => {
+	const burger = document.querySelector('.burger');
+
+	burger.addEventListener('click', () => {
+
+		burger.classList.toggle('toggle');
+
+	})
+}
+
+navSlide();
